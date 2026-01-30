@@ -1,6 +1,0 @@
-container {
-  display: flex;
-  flex-direction: column; /* Stacks items vertically */
-  height: 300px; /* Example height for demonstration */
-  border: 1px solid black;
-}

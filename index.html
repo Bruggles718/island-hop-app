@@ -3,16 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Island Hop Tool</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body> 
-  <script src="script.js"></script>
-  <div class="container">
-    <input type="number" id="start-speed"></input>
-    <input type="number" id="target-speed"></input>
-    <input type="number" id="ess"></input>
-    <button id="calculate-button">Calculate</button>
+<body>
+  <script src="index.js"></script>
+  <h1>Island Hop Tool</h1>
+  <h3>This will calculate the metronome BPM required to get to a given target speed from a given start speed with the given ESS value.</h3>
+  <div>
+    <div><input type="number" id="start-speed"></input> Start Speed</div>
+    <div><input type="number" id="target-speed"></input> Target Speed</div>
+    <div><input type="number" id="ess"></input> ESS</div>
+    <div><button id="calculate-button">Calculate</button></div>
+    <div>Output:</div>
+    <div id="output"></div>
   </div>
 </body>
 </html>
